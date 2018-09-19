@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "NatImage"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "Nat.js Module: Image."
   s.description  = <<-DESC
                     Nat.js Module: Image (info or preview or pick or exif)
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author       = { "nat" => "hi@natjs.com" }
 
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/natjs/nat-media-image.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/bengban/nat-media-image.git", :tag => s.version }
 
   s.source_files  = "ios/Classes/*.{h,m}", "ios/Classes/MWPhotoBrowser/Pod/*/*.{h,m}"
   s.resources =  "ios/Classes/MWPhotoBrowser/Pod/Assets/*.png"
